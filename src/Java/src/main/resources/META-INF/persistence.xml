@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Klinika_Stomatologii.model.Usluga</class>
+        <class>Klinika_Stomatologii.model.Dokumenty</class>
+        <class>Klinika_Stomatologii.model.SostavUslugi</class>
+        <class>Klinika_Stomatologii.model.Zapis</class>
+        <class>Klinika_Stomatologii.model.Oplata</class>
+        <class>Klinika_Stomatologii.model.Dolzhnost</class>
+        <class>Klinika_Stomatologii.model.Proizvoditel</class>
+        <class>Klinika_Stomatologii.model.Klient</class>
+        <class>Klinika_Stomatologii.model.Sotrudnik</class>
+        <class>Klinika_Stomatologii.model.OkazanieUslug</class>
+        <class>Klinika_Stomatologii.model.Kabinet</class>
+        <class>Klinika_Stomatologii.model.Material</class>
+        <class>Klinika_Stomatologii.model.FlexberryAdvLimit</class>
+        <class>Klinika_Stomatologii.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Klinika_Stomatologii.model.NewPlatformFlexberryServicesLock</class>
+        <class>Klinika_Stomatologii.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

@@ -1,0 +1,1 @@
+docker-compose -p klinika_stomatologii down
